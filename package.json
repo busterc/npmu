@@ -1,0 +1,35 @@
+{
+  "name": "npmu",
+  "version": "0.1.0",
+  "description": "cli for uninstalling dependencies with a checkbox interface, for npm or pnpm",
+  "author": "Buster Collings <busterc@gmail.com> (https://about.me/buster)",
+  "license": "ISC",
+  "repository": "busterc/npmu",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "src"
+  ],
+  "bin": {
+    "npmu": "src/npmu.js",
+    "pnpmu": "src/pnpmu.js"
+  },
+  "scripts": {
+    "test": "echo :P"
+  },
+  "keywords": [
+    "npm",
+    "uninstall",
+    "remove",
+    "package",
+    "pkg",
+    "dependencies",
+    "deps"
+  ],
+  "dependencies": {
+    "inquirer": "^3.0.6",
+    "meow": "^3.7.0",
+    "pkg-up": "^2.0.0"
+  }
+}
